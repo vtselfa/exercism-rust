@@ -29,3 +29,8 @@ fn test_big_prime2() {
 fn test_big_prime3() {
     assert_eq!(np::nth(1_000_000), 15_485_867);
 }
+
+#[test]
+fn test_big_prime4() {
+    assert_eq!(np::nth(9_999_999), 179_424_673);
+}
