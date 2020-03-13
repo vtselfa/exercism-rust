@@ -1,0 +1,7 @@
+[dependencies]
+binary-heap-plus = "0.2.0"
+
+[package]
+edition = "2018"
+name = "high-scores"
+version = "4.0.0"
